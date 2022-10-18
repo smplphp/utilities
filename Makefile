@@ -1,6 +1,6 @@
 # Run commands even if files exist
 .PHONY: *
-PACKAGE = skeleton
+PACKAGE = utilities
 
 # Perform a composer install
 install: composer.json

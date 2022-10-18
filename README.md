@@ -1,32 +1,32 @@
 <img src="smpl-logo.png" alt="SMPL" align="left">
 
-# Component
+# Utilities
 
-A simple, modern PHP 8 something something
+A simple, modern PHP 8 utilities library, providing support and general useful features to support development.
 
-![Packagist Version](https://img.shields.io/packagist/v/smplphp/skeleton)
-![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/smplphp/skeleton)
-![GitHub](https://img.shields.io/github/license/smplphp/skeleton)
-![Psalm Level](https://shepherd.dev/github/smplphp/skeleton/level.svg)
+![Packagist Version](https://img.shields.io/packagist/v/smplphp/utilities)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/smplphp/utilities)
+![GitHub](https://img.shields.io/github/license/smplphp/utilities)
+![Psalm Level](https://shepherd.dev/github/smplphp/utilities/level.svg)
 
 Main:
 
-[![codecov](https://codecov.io/gh/smplphp/skeleton/branch/main/graph/badge.svg?token=FHJ41NQMTA)](https://codecov.io/gh/smplphp/skeleton)
-[![CircleCI](https://circleci.com/gh/smplphp/skeleton/tree/main.svg?style=shield)](https://circleci.com/gh/smplphp/skeleton/tree/main)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fsmplphp%2Fskeleton%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/smplphp/skeleton/main)
+[![codecov](https://codecov.io/gh/smplphp/utilities/branch/main/graph/badge.svg?token=FHJ41NQMTA)](https://codecov.io/gh/smplphp/utilities)
+[![CircleCI](https://circleci.com/gh/smplphp/utilities/tree/main.svg?style=shield)](https://circleci.com/gh/smplphp/utilities/tree/main)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fsmplphp%2Futilities%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/smplphp/utilities/main)
 
 Develop:
 
-[![codecov](https://codecov.io/gh/smplphp/skeleton/branch/develop/graph/badge.svg?token=FHJ41NQMTA)](https://codecov.io/gh/smplphp/skeleton)
-[![CircleCI](https://circleci.com/gh/smplphp/skeleton/tree/develop.svg?style=shield)](https://circleci.com/gh/smplphp/skeleton/tree/develop)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fsmplphp%2Fskeleton%2Fdevelop)](https://dashboard.stryker-mutator.io/reports/github.com/smplphp/skeleton/develop)
+[![codecov](https://codecov.io/gh/smplphp/utilities/branch/develop/graph/badge.svg?token=FHJ41NQMTA)](https://codecov.io/gh/smplphp/utilities)
+[![CircleCI](https://circleci.com/gh/smplphp/utilities/tree/develop.svg?style=shield)](https://circleci.com/gh/smplphp/utilities/tree/develop)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fsmplphp%2Futilities%2Fdevelop)](https://dashboard.stryker-mutator.io/reports/github.com/smplphp/utilities/develop)
 
 ## Install
 
 Install via composer.
 
 ```bash
-composer require smplphp/skeleton
+composer require smplphp/utilities
 ```
 
 ## Usage
@@ -91,4 +91,4 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/smplphp/skeleton/blob/master/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/smplphp/utilities/blob/master/LICENSE.md) for more information.
