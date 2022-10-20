@@ -8,12 +8,15 @@
             <directory suffix=".php">./src</directory>
         </include>
         <exclude>
+            <directory>./src/Contracts</directory>
         </exclude>
     </coverage>
     <testsuites>
-        <testsuite name="smplphp/utilities test suite">
-            <directory suffix="Test.php">./tests/</directory>
-            <exclude>./tests/Fixtures</exclude>
+        <testsuite name="Comparators">
+            <directory suffix="Test.php">./tests/Comparators</directory>
+        </testsuite>
+        <testsuite name="Helpers">
+            <directory suffix="Test.php">./tests/Helpers</directory>
         </testsuite>
     </testsuites>
 </phpunit>
