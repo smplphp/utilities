@@ -17,6 +17,26 @@ namespace Smpl\Utils\Contracts;
 interface Comparator
 {
     /**
+     * Checks if value A is equal to value B.
+     *
+     * This method is will compare A against B in an identical manner to
+     * {@see \Smpl\Utils\Contracts\Comparator::compare()}, except that it will
+     * return true if the values are equal
+     * (0 {@see \Smpl\Utils\Helpers\ComparisonHelper::EQUAL_TO}), and false otherwise.
+     *
+     * @param V $a
+     * @param V $b
+     *
+     * @return bool
+     *
+     * @see \Smpl\Utils\Contracts\Comparator::compare()
+     *
+     * @psalm-pure
+     * @phpstan-pure
+     */
+    public function areEqual(mixed $a, mixed $b): bool;
+
+    /**
      * Compare value A against value B.
      *
      * This method should compare A against B, returning a negative integer
