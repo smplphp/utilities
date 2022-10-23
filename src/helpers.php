@@ -45,3 +45,45 @@ function does_sign_match(int|float $number, int $signum): bool
 {
     return get_sign($number) === $signum;
 }
+
+/**
+ * Check if the Provided Sign is Equal To (0)
+ *
+ * Helper method for comparing a sign/signum response to see if it is equal to.
+ *
+ * @param int $signum
+ *
+ * @return bool
+ */
+function is_sign_equal_to(int $signum): bool
+{
+    return get_sign($signum) === ComparisonHelper::EQUAL_TO;
+}
+
+/**
+ * Check if the Provided Sign is Less Than (-1)
+ *
+ * Helper method for comparing a sign/signum response to see if it is less than.
+ *
+ * @param int $signum
+ *
+ * @return bool
+ */
+function is_sign_less_than(int $signum): bool
+{
+    return get_sign($signum) === ComparisonHelper::LESS_THAN;
+}
+
+/**
+ * Check if the Provided Sign is More Than (+1)
+ *
+ * Helper method for comparing a sign/signum response to see if it is more than.
+ *
+ * @param int $signum
+ *
+ * @return bool
+ */
+function is_sign_more_than(int $signum): bool
+{
+    return get_sign($signum) === ComparisonHelper::MORE_THAN;
+}

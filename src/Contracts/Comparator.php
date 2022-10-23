@@ -44,8 +44,8 @@ interface Comparator
      * A is more than B.
      *
      * Implementations must return an integer in the range of -1 => 1. There
-     * are constants in {@see \Smpl\Collections\Helpers\ComparisonHelper} class
-     * as well as a {@see \Smpl\Collections\Helpers\ComparisonHelper::signum()}
+     * are constants in {@see \Smpl\Utils\Helpers\ComparisonHelper} class
+     * as well as a {@see \Smpl\Utils\Helpers\ComparisonHelper::signum()}
      * function.
      *
      * @param V $a
@@ -53,9 +53,9 @@ interface Comparator
      *
      * @return int<-1, 1>
      *
-     * @see \Smpl\Collections\Helpers\ComparisonHelper::LESS_THAN
-     * @see \Smpl\Collections\Helpers\ComparisonHelper::EQUAL_TO
-     * @see \Smpl\Collections\Helpers\ComparisonHelper::MORE_THAN
+     * @see \Smpl\Utils\Helpers\ComparisonHelper::LESS_THAN
+     * @see \Smpl\Utils\Helpers\ComparisonHelper::EQUAL_TO
+     * @see \Smpl\Utils\Helpers\ComparisonHelper::MORE_THAN
      *
      * @psalm-pure
      * @phpstan-pure
@@ -72,6 +72,9 @@ interface Comparator
      * @param V $b
      *
      * @return int<-1, 1>
+     *
+     * @psalm-pure
+     * @phpstan-pure
      */
     public function __invoke(mixed $a, mixed $b): int;
 }

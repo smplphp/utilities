@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace Smpl\Utils\Comparators;
 
 use Smpl\Utils\Contracts\Comparator;
+use function Smpl\Utils\is_sign_equal_to;
 
 /**
  * Base Comparator
@@ -20,7 +21,24 @@ abstract class BaseComparator implements Comparator
      * @param V $a
      * @param V $b
      *
+     * @return bool
+     *
+     * @psalm-pure
+     * @phpstan-pure
+     */
+    public function areEqual(mixed $a, mixed $b): bool
+    {
+        return is_sign_equal_to($this->compare($a, $b));
+    }
+
+    /**
+     * @param V $a
+     * @param V $b
+     *
      * @return int<-1, 1>
+     *
+     * @psalm-pure
+     * @phpstan-pure
      */
     public function __invoke(mixed $a, mixed $b): int
     {
